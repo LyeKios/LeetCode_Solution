@@ -142,16 +142,16 @@ class BinaryTree():
                 
 if __name__ == "__main__":
     b = BinaryTree()
-    # for i in range(1,10):
-    #     b.add(i)
-    # b.recursion_vlr(b.root)
-    # b.level_scan()
-    b.create_queue = ['A','B','D','H','#','#','I','#','#','E','#','#','C','F','#','J','#','#','G','#','#']
-    b.createTree()
+    for i in range(1,10):
+        b.add(i)
+    b.recursion_vlr(b.root)
     b.level_scan()
-    pre_order = [1, 2, 4, 7, 3, 5, 6, 8]
-    mid_order = [4, 7, 2, 1, 5, 3, 8, 6]
-    post_order = [7, 4, 2, 5, 8, 6, 3, 1]
+    # b.create_queue = ['A','B','D','H','#','#','I','#','#','E','#','#','C','F','#','J','#','#','G','#','#']
+    # b.createTree()
+    # b.level_scan()
+    # pre_order = [1, 2, 4, 7, 3, 5, 6, 8]
+    # mid_order = [4, 7, 2, 1, 5, 3, 8, 6]
+    # post_order = [7, 4, 2, 5, 8, 6, 3, 1]
     #b.create_tree(pre_order, mid_order)
     #b.construct_tree(mid_order, post_order)
     #b.recursion_vlr(b.root)
