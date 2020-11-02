@@ -140,6 +140,7 @@ class BinaryTree():
             if current.right:
                 queue.append(current.right)
                 
+                
 if __name__ == "__main__":
     b = BinaryTree()
     for i in range(1,10):
