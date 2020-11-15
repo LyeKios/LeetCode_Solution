@@ -6,6 +6,6 @@ Dict[1] = 1
 
 # print(filter(endWord, wordList))
 # while ([], []):
-print (min(1, None))
-# print (len('dog'))
+print ([0 for _ in range(10)])
+print (set('dog'))
 
